@@ -1,0 +1,47 @@
+body {
+    color: #444;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: ZhiFont,Helvetica Neue,Roboto,Segoe UI,Microsoft YaHei,sans-serif;
+    background-color: #efeff4;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    border: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+button, input[type=button], input[type=file]::-webkit-file-upload-button, input[type=submit] {
+    font-family: ZhiFont,Helvetica Neue,Roboto,Segoe UI,Microsoft YaHei,sans-serif;
+}
+h1, h2 {
+    margin: 0;
+    font-weight: 400;
+    font-size: inherit;
+}
+
+button, textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+button {
+    padding: 0;
+    color: inherit;
+    font-size: inherit;
+    background: none;
+    border: none;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+/*a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}*/

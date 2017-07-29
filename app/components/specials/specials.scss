@@ -1,0 +1,67 @@
+/*specials
+*/
+body{
+    background: #fff;
+}
+/*flex盒子布局*/
+.Layout-layout-OUK {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    min-height: calc(100vh - 50px);
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}
+.Layout-main-hHHt{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 100vw;
+    max-width: 600px;
+}
+.Layout-main-hHHt>div {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+}
+.SpecialListsPage-banner{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(https://zhihu-beyond.zhimg.com/ce932ea94dcb8afa204292a0bc767180.svg);
+    margin-bottom: 20px;
+}
+/*列表两次排列*/
+.SpecialListsPage-specialListItem-2Kk{
+    position: relative;
+    display: inline-block;
+    width: calc(50% - 22.5px);
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.SpecialListsPage-artwork-18yh{
+    background-color: rgb(247, 247, 247);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../../img/specials.jpg');
+    max-height: 102px;
+    height: 24.63768vw;
+    border-radius: 6px;
+}
+.SpecialListsPage-description-3785 {
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 1;
+    color: #646464;
+}
+
